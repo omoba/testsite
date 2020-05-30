@@ -1,0 +1,82 @@
+body{
+background: rgb(22, 137, 172);
+margin: 0 100px 0 100px 0;
+}
+    
+p{
+    font-size: 30px;
+    margin: 0px;
+}
+
+section{
+    background: white;
+    margin: 0px 300px 0px 300px;
+    padding: 20px 50px 0px 50px;
+}
+
+    .bg-img {
+        background-image: url("images/head.jpg");
+        min-height: 350px;
+        width: 1287px;
+        margin-left: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+
+      .container {
+        position: absolute;
+        margin: 300px 500px 0 700px;
+        width: 500px;
+      }
+
+
+      .topnav {
+        overflow: hidden;
+        background-color: none;
+      }
+ 
+      
+      .topnav a {
+        float: right;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 8px 10px;
+        text-decoration: none;
+        font-size: 24px;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+
+
+.row {
+ display: flex;
+ flex-direction: row;
+ background: white;
+ margin: 0px 300px 0px 300px;
+}
+
+
+.row figure{
+margin: auto;
+text-align: center;
+margin-top: 200px;
+}
+
+
+.row figure img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+footer {
+    clear: both;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
